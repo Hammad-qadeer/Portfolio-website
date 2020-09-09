@@ -6,6 +6,11 @@ body {margin: 0;}
   background-color: #333;
 }
 
+.topnav a:hover {
+  background: #ddd;
+  color: black;
+}
+
 ul.topnav {
   list-style-type: none;
   margin: 0;
@@ -31,77 +36,6 @@ ul.topnav li a {
   text-decoration: none;
 }
 
-
-.main-head{
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-  
-  /* Full height */
-  height: 100%; 
-  
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
-.main-header::before {
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-  background-color: #9933cc;
-  color: #ffffff;
-  padding: 15px;
-
-  height: 100%;
-
-
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.contacts {
-  font-family: Arial, "Times New Roman", serif;
-   color:white;
-  font-size:15px;
-  display: block;
-  padding-top:3px;
-}
-
-.name {
-  width:auto;
-  font-size:42px;
-  color:white;
-  margin-bottom:3px;
-  clear:both;
-}
-
-.work {
-  font-family: Georgia, "Times New Roman", serif;
-  font-style: italic;
-   color:white;
-  font-size:25px;
-  display: block;
-  padding-top:3px;
-}
-
-.responsive {
-  width: 50%;
-  max-width: 400px
-  height: auto;
-  border-radius: 10px;
-  
-}
-
-.contacts, dl, dd {
-  text-align: left;
-  font-weight: normal;
-}
-
-
-.container {
-  position: relative;
-}
 
 .topleft {
   position: absolute;

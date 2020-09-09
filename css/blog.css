@@ -9,7 +9,7 @@ body {
 }
 
 /* Center website */
-.portfolio {
+.blog {
   max-width: 1000px;
   margin: auto;
 }
@@ -44,7 +44,7 @@ h1 {
 }
 
 /* Content */
-.details {
+.data {
   background-color: white;
   padding: 10px;
   font-family: Georgia, "Times New Roman", serif;
