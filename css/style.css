@@ -1,0 +1,157 @@
+body {margin: 0;}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+.topnav li::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.main-head{
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.main-header::before {
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  background-color: #9933cc;
+  color: #ffffff;
+  padding: 15px;
+
+  height: 100%;
+
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contacts {
+  font-family: Arial, "Times New Roman", serif;
+   color:white;
+  font-size:15px;
+  display: block;
+  padding-top:3px;
+}
+
+.name {
+  width:auto;
+  font-size:42px;
+  color:white;
+  margin-bottom:3px;
+  clear:both;
+}
+
+.work {
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+   color:white;
+  font-size:25px;
+  display: block;
+  padding-top:3px;
+}
+
+.responsive {
+  width: 50%;
+  max-width: 400px
+  height: auto;
+  border-radius: 10px;
+  
+}
+
+.contacts, dl, dd {
+  text-align: left;
+  font-weight: normal;
+}
+
+
+.container {
+  position: relative;
+}
+
+.topleft {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+
+.content ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  background-color: ;
+  opacity: 0.3;
+  padding: 10px;
+  height: 200px; 
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 50px;
+}
+
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
