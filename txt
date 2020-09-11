@@ -1,0 +1,17 @@
+viewpor,metatag name initial scale
+d-none
+d-lg-block
+col-md-4
+col-md-8
+row
+conttainer
+blur px
+overflow
+after
+col-
+padding
+smooth
+
+heading size family same
+
+p size same

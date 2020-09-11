@@ -1,64 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="https://cdn.materialdesignicons.com/2.0.46/css/materialdesignicons.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
 <link rel="stylesheet" type="text/css" href="css/cv.css">
 <link rel="stylesheet" type="text/css" href="css/portfolio.css">
-<link rel="stylesheet" type="text/css" href="css/main.css">
 <link rel="stylesheet" type="text/css" href="css/blog.css">
 <link rel="stylesheet" type="text/css" href="css/contact.css">
 
-
-
-
 </head>
+
+
 <body>
-
-<div class="menu">
-  <div class="container">
-    <div class="row">
-      <div class="menu__wrapper d-none d-lg-block">
-        <nav class>
-    <ul class="topnav">
-  <li><a class="active" href="#hi">About</a></li>
-  <li><a href="#resume">Resume</a></li>
-  <li><a href="#portfolio">Portfolio</a></li>
-  <li><a href="#blog">Blog</a></li>
-  <li><a href="#contact">Contact</a></li>
-</ul>
-</nav>
+  <div class="topnav menu--active" id="myTopnav">
+    <div class="container">
+  <a href="#about" class="active">Home</a>
+  <a href="#resume">Resume</a>
+  <a href="#portfolio">Portfolio</a>
+  
+  <a href="#about">About</a>
+   <a href="#contact">Contacts</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
 </div>
-
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 <header class="main-header" style="background-image: url(1.jpeg);">
-  <div class="container">
-    <div class="row profile">
-     <div class="col-md-4 avatar">
+    <div class="row">
+     <div class="col-md-4 personal-profile__avatar">
       <img src="images/profile.jpg" alt="avatar" class="responsive">
      </div>
      <div class="col-md-8">
-      <p class="name">Hammad Qadeer </br>
+      <p class="name">Hammad Qadeer
       </p>
       <p class="work"><em>Software Engineer</em></p>
       <div class="contact_">
         <dl class="contact-list list-opacity">
           <dt><b>AGE:</b></dt>
           <dd>22</dd>
-           <dt><b>PHONE:</b></dt>
+          <dt><b>PHONE:</b></dt>
           <dd>+92 312 1535178</dd>
            <dt><b>EMAIL:</b></dt>
           <dd>hammadqadeer12@gmail.com</dd>
         </dl>
     </div>
-  </div>
-</div>
 </div>
 </header>
 
-<section class="continer section" id="hi">
+<section class="section" id="about">
   <div class="row">
     <div class=col-md-10>
       <h2 class="section_title" style="text-indent: 0px">Hello</h2>
@@ -75,15 +75,14 @@
        <section class="section" id="resume">
          <div class="row">
             <div class=col-md-10>
-               <h2 class="section_title" style="text-indent: 0px">Reume</h2>
+               <h2 class="section-title" style="text-indent: 0px">Resume</h2>
                </div>
              </div>
              <div class="row">
               <div class="col-md-8">
                 <div class="header">
-  <h1>Hammad Qadeer </br>
-      Software Engineer
-  </h1>
+        <h2>Hammad Qadeer</h2>
+        <h3>Software Engineer</h3>
           <ul>
               <li class="ad">Street # 8, Muzamil Town Rawalpindi</li>
               <li class="mail">hammadqadeer12@gmail.com</li>
@@ -148,12 +147,15 @@
    </div>
    </section>
 
-   <section class="container section" id="portfolio">
+   <section class="section" id="portfolio">
      <div class="portfolio">
 
 <hr>
-
-<h2>Portfolio</h2>
+           <div class="row">
+             <div class=col-md-10>
+               <h2 class="section-title" style="text-indent: 0px">Portfolio</h2>
+               </div>
+             </div>
 <div class="row">
   <div class="column">
     <div class="details">
@@ -179,22 +181,17 @@
   </div>
   <div class="column">
     <div class="details">
-    <img src="images/img5.jpg" alt="" style="width:100%">
+    <img src="images/img5.jpg" alt="App" style="width:100%">
       <h3>Doctor App</h3>
       <p>Developed and implemented angular9, web application. Successfully installed all the, tools and environments. Structured several internal systems, as well as design restful apis built in express and nodejs.</p>
     </div>
   </div>
-
-</div>
-
-<div class="details">
-  <img src="images/img4.png" alt="" style="width:100%">
 </div>
 
 </div>
    </section>
 
-  <section class="container section" id="blog">
+  <section class="section" id="blog">
      <div class="blog">
 
 <hr>
@@ -227,9 +224,6 @@
    </section>
    <div class="background__image" style="background-image: url(1.jpeg);" id="contact">
      <div class="row">
-      <div class="column">
-        <h2 style="text-align:center">Get in touch_</h2>
-     </div>
      </div>
      <div class="conacts">
   <div style="text-align:center">
@@ -237,9 +231,6 @@
     <p>Swing by for a cup of coffee, or leave me a message:</p>
   </div>
   <div class="row">
-    <div class="col">
-      <img src="img4.png" style="width:100%">
-    </div>
     <div class="col">
       <form>
         <label for="fname">Your Name</label>

@@ -1,4 +1,4 @@
-* {
+*{
   box-sizing: border-box;
 }
 
@@ -14,12 +14,12 @@
 }
 
 html {
-  font-family: "Lucida Sans", sans-serif;
+   font-family: Arial, "Times New Roman", serif;
 }
 
 .header {
-  background-color: #9933cc;
-  color: #ffffff;
+  background-color: white;
+  color: #b4b7ba;
   padding: 15px;
 }
 
@@ -28,8 +28,6 @@ html {
   margin: 0;
   padding: 0;
 }
-
-
 
 .list ul {
   list-style-type: none;
@@ -40,15 +38,15 @@ html {
 .list li {
   padding: 8px;
   margin-bottom: 7px;
-  background-color: #33b5e5;
-  color: #ffffff;
+  background-color: white;
+  color: #8879ad;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .aside {
-  background-color: #33b5e5;
+  background-color: white;
   padding: 15px;
-  color: #ffffff;
+  color: black;
   text-align: center;
   font-size: 14px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -63,8 +61,8 @@ html {
 .right li {
   padding: 8px;
   margin-bottom: 7px;
-  background-color: #33b5e5;
-  color: #ffffff;
+  background-color: white;
+  color: #8879ad;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
