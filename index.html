@@ -14,16 +14,21 @@
 </head>
 
 
-<body>
+<body> 
   <div class="topnav menu--active" id="myTopnav">
     <div class="container">
-  <a href="#about" class="active">Home</a>
-  <a href="#resume">Resume</a>
-  <a href="#portfolio">Portfolio</a>
+     <div class="row">
+      <nav class="">
+  <a href="#">Home</a>
   
   <a href="#about">About</a>
+  <a href="#resume">Resume</a>
+   <a href="#portfolio">Portfolio</a>
+    <a href="#blog">Blog</a>
    <a href="#contact">Contacts</a>
   <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</nav>
+</div>
 </div>
 </div>
 <script>
@@ -36,11 +41,9 @@ function myFunction() {
   }
 }
 </script>
+
 <header class="main-header" style="background-image: url(1.jpeg);">
     <div class="row">
-     <div class="col-md-4 personal-profile__avatar">
-      <img src="images/profile.jpg" alt="avatar" class="responsive">
-     </div>
      <div class="col-md-8">
       <p class="name">Hammad Qadeer
       </p>
@@ -218,19 +221,22 @@ function myFunction() {
       <h3>My Work</h3>
       <p>Build a website using, stack like angular html css. I used to make, them more responsive and well designed bootstrap framework. Bootstrap is used and, make webapages look more well designed and cleaner.<p>
     </div>
-
-</div>
 </div>
    </section>
-   <div class="background__image" style="background-image: url(1.jpeg);" id="contact">
+   <div class="background" style="background-image: url(1.jpeg);">
+    <div id="contact" class="container section">
      <div class="row">
-     </div>
      <div class="conacts">
   <div style="text-align:center">
     <h2>Contact Me</h2>
     <p>Swing by for a cup of coffee, or leave me a message:</p>
   </div>
+   </div>
+ </div>
   <div class="row">
+    <div class="col">
+      <img src="images/map.jpeg" style="width:100%">
+    </div>
     <div class="col">
       <form>
         <label for="fname">Your Name</label>
@@ -249,6 +255,8 @@ function myFunction() {
       </form>
     </div>
   </div>
+  </div>
+
 </div>
    </div>
 

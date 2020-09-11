@@ -6,14 +6,13 @@ body {
   box-sizing: border-box;
 }
 
-.background__image{
-  background-color: #9933cc;
-  color: #ffffff;
-  padding: 15px;
-  width:auto;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
+.background {
+ height:100%;
+ background-repeat:no-repeat;
+ background-position:50%;
+ background-size:cover;
+ position:relative;
+ color:#fff
 }
 
 /* Style inputs */
