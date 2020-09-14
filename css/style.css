@@ -9,9 +9,12 @@ html {
 .topnav {
   background-color: #333;
   overflow: hidden;
-  position: fixed;
   width:100%;
 
+}
+
+.fixed-top{
+  position: fixed;
 }
 
 .topnav a {

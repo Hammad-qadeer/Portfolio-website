@@ -1,5 +1,13 @@
 
 
+
+
+/* Center website */
+.about {
+  max-width: 1000px;
+  margin: auto;
+}
+
 .main-header {
   color: #ffffff;
   padding: 50px;

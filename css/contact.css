@@ -11,8 +11,8 @@ body {
  background-repeat:no-repeat;
  background-position:50%;
  background-size:cover;
- position:relative;
- color:#fff
+ color:#fff;
+ overflow: hidden
 }
 
 /* Style inputs */
@@ -41,7 +41,7 @@ input[type=submit]:hover {
 .contacts {
   border-radius: 5px;
   background-color: #f2f2f2;
-  padding: 10px;
+  padding: 10px
 }
 
 /* Create two columns that float next to eachother */
