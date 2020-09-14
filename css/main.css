@@ -1,7 +1,5 @@
 
 
-
-
 /* Center website */
 .about {
   max-width: 1000px;
@@ -17,11 +15,12 @@
   background-size: cover;
   overflow: hidden;
   top:0;
+  z-index: -1;
 }
 
+
 .contact_ {
-  font-family: Arial, "Times New Roman", serif;
-  color:white;
+  color:#ffffff;
   font-size:20px;
   display: block;
   padding-top:3px;
@@ -29,7 +28,6 @@
 }
 
 .contact-list {
-  font-family: Arial, "Times New Roman", serif;
   color:white;
   font-size:20px;
   display: block;
@@ -42,33 +40,25 @@
 
 .name {
   width:auto;
-  font-size:42px;
+  font-size:50px;
   color:white;
   margin-bottom:3px;
   clear:both;
 }
 
 .work {
-  font-family: Arial, "Times New Roman", serif;
   font-style: italic;
-   color:white;
+  color:white;
   font-size:25px;
   display: block;
   padding-top:3px;
 }
 
 
-.container {
-  position: relative;
-  width:100%;
-  height:auto;
-}
-
 .section {
   width:100%;
   height:auto;
   padding:0;
-
 }
 
 .row {
@@ -78,10 +68,8 @@
 }
 
 .section_description {
-  font-family: Arial, "Times New Roman", serif;
-  font-size:25px;
+  font-size:20px;
   float:center;
-  color: #555555;
   margin:0px 0px 30px; 
 }
 

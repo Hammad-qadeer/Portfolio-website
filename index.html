@@ -10,6 +10,7 @@
 <link rel="stylesheet" type="text/css" href="css/portfolio.css">
 <link rel="stylesheet" type="text/css" href="css/blog.css">
 <link rel="stylesheet" type="text/css" href="css/contact.css">
+
 </head>
 
 
@@ -41,11 +42,12 @@ function myFunction() {
 }
 </script>
 
-<header class="main-header" style="background-image: url(1.jpeg);">
+<header class="main-header" style="background-image: url(./images/1.jpeg);">
+  <div class="container">
     <div class="row">
      <div class="col-md-8">
-      <p class="name">Hammad Qadeer
-      </p>
+      <h1 class="name">Hammad Qadeer
+      </h1>
       <p class="work"><em>Software Engineer</em></p>
       <div class="contact_">
         <dl class="contact-list list-opacity">
@@ -59,10 +61,12 @@ function myFunction() {
     </div>
 </div>
 </div>
+</div>
 </header>
 
 <section class="section" id="about">
-  <div class="about">
+    <div class="container">
+      <div id="showcase">
     <div class=col-md-10>
       <h2 class="section_title" style="text-indent: 0px">Hello</h2>
       <p class="section_description">
@@ -71,10 +75,11 @@ function myFunction() {
              who is proficient in an array of scripting languages and multimedia Web tools.</p>
            </div>
          </div>
+       </div>
        </section>
 
        <section class="section" id="resume">
-        <div class="resume">
+          <div class="container">
               <hr>
          <div class="row align-items">
             <div class=col-md-10>
@@ -148,56 +153,43 @@ function myFunction() {
 </div>
    </div>
    </div>
+</div>
  </div>
    </section>
 
    <section class="section" id="portfolio">
-     <div class="portfolio">
+    <div class="container">
 
 <hr>
-           <div class="row">
-             <div class=col-md-10>
-               <h2 class="section-title" style="text-indent: 0px">Portfolio</h2>
-               </div>
-             </div>
+    <h2 class="section-title" style="text-indent: 0px">Portfolio</h2>
 <div class="row">
-  <div class="column">
+  <div class="box">
     <div class="details">
-      <img src="images/img1.png" alt="Project" style="width:100%">
-      <h3>Expense App</h3>
-      <p>Built a expense tracker app, using React hooks or context api. Its contain responsive gui, interface which took expenses and money and calculate the total expense of it. Items could be delete, or added by user it gives access to maintain saved items.</p>
+        <img src="images/img1.png" alt="Project" style="width:100%">
+      <h3>My Work</h3>
+      <p>Built a expense tracker app, using React hooks or context api. Its contain responsive gui, interface which took expenses and money and calculate the total expense of it. Items could be delete, or added by user it gives access to maintain saved.</p>
     </div>
   </div>
-  <div class="column">
+  <div class="box">
     <div class="details">
-    <img src="images/img2.png" alt="Crud" style="width:100%;">
-      <h3>Crud App</h3>
-      <p>Built this app with, mern stack used some responsive javascript library. I have been created, frontend framework react. Backend has been created, nodejs
-      express mongodb.</p>
+       <img src="images/react.png" alt="Crud" style="width:85%">
+      <h3>My Work</h3>
+      <p>Built this app with, mern stack used some responsive javascript library. I have been created, frontend framework with react which is javascript library user for frontend. Backend has been created, nodejs express mongodb .</p>
     </div>
   </div>
-  <div class="column">
+  <div class="box">
     <div class="details">
-    <img src="images/img3.jpg" alt="Portal" style="width:100%">
-      <h3>Student Portal System</h3>
-      <p>Built a student portal system, with php or mysql where student could upload or download there notes assignments or lectures. Student could login or, sign up in the system.It used student personal, information before let user registered in the system.</p>
-    </div>
-  </div>
-  <div class="column">
-    <div class="details">
-    <img src="images/img5.jpg" alt="App" style="width:100%">
-      <h3>Doctor App</h3>
-      <p>Developed and implemented angular9, web application. Successfully installed all the, tools and environments. Structured several internal systems, as well as design restful apis built in express and nodejs.</p>
+         <img src="images/img3.jpg" alt="Portal" style="width:98%">
+      <h3>My Work</h3>
+      <p>Built a student portal system, with php or mysql where student could upload or download there notes assignments or lectures. Student could login or, sign up in the system.It used student personal, information before let user registered in the system and it has responsive layout.</p>
     </div>
   </div>
 </div>
-
 </div>
    </section>
 
   <section class="section" id="blog">
-     <div class="blog">
-
+    <div class="container">
 <hr>
 
 <h2>My Blog</h2>
@@ -218,21 +210,23 @@ function myFunction() {
   </div>
   <div class="column">
     <div class="data">
-    <img src="images/stack.jpg" alt="Stack" style="width:100%">
+    <img src="images/stack.jpg" alt="Stack" style="width:90%">
       <h3>My Work</h3>
-      <p>Build a website using, stack like angular html css. I used to make, them more responsive and well designed bootstrap framework. Bootstrap is used and, make webapages look more well designed and cleaner.<p>
+      <p>Build a website using, stack like angular html css. I used to make, them more responsive and well designed bootstrap framework. Bootstrap is used and, make webapages look more well designed and cleaner.</p>
     </div>
+  </div>
+</div>
 </div>
    </section>
-   <div class="background" style="background-image: url(1.jpeg);">
+
+
+   <div class="background" style="background-image: url(./images/1.jpeg);">
     <div id="contact" class="section">
      <div class="row">
-     <div>
   <div style="text-align:center">
     <h2>Contact Me</h2>
     <p>Swing by for a cup of coffee, or leave me a message:</p>
   </div>
-   </div>
  </div>
   <div class="row">
     <div class="col">
@@ -259,7 +253,11 @@ function myFunction() {
   </div>
 
 </div>
-   </div>
+
+
+<footer>
+  <p>Responsive Website Design, Copyright &copy; 2020</p>
+</footer>
 
 </body>
 </html>

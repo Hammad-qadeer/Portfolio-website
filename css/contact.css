@@ -1,6 +1,4 @@
-body {
-   font-family: Arial, "Times New Roman", serif;
-}
+
 
 * {
   box-sizing: border-box;
@@ -41,7 +39,7 @@ input[type=submit]:hover {
 .contacts {
   border-radius: 5px;
   background-color: #f2f2f2;
-  padding: 10px
+  padding: 10px;
 }
 
 /* Create two columns that float next to eachother */
@@ -50,6 +48,7 @@ input[type=submit]:hover {
   width: 50%;
   margin-top: 6px;
   padding: 20px;
+
 }
 
 /* Clear floats after the columns */

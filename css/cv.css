@@ -13,22 +13,12 @@
   padding: 15px;
 }
 
-/* Center website */
-.resume {
-  max-width: 1000px;
-  margin: auto;
-}
-
-
-html {
-   font-family: Arial, "Times New Roman", serif;
-}
-
 
 .header {
-  background-color: white;
-  color: #b4b7ba;
+  background-color:#35424a;
+  color: #ffffff;
   padding: 15px;
+  width:97%;
 }
 
 .header ul {
@@ -46,15 +36,15 @@ html {
 .list li {
   padding: 8px;
   margin-bottom: 7px;
-  background-color: white;
-  color: #8879ad;
+  background-color: #35424a;
+  color: #ffffff;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .aside {
-  background-color: white;
+  background: #35424a;
   padding: 15px;
-  color: black;
+  color: #ffffff;
   text-align: center;
   font-size: 14px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -69,8 +59,8 @@ html {
 .right li {
   padding: 8px;
   margin-bottom: 7px;
-  background-color: white;
-  color: #8879ad;
+  background-color: #35424a;
+  color: #ffffff;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
