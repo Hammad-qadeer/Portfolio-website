@@ -10,21 +10,21 @@
  background-position:50%;
  background-size:cover;
  color:#fff;
- overflow: hidden
+ overflow: hidden;
 }
 
 /* Style inputs */
 input[type=text], select, textarea {
   width: 100%;
-  padding: 12px;
+  padding: 15px;
   border: 1px solid #ccc;
-  margin-top: 6px;
-  margin-bottom: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   resize: vertical;
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: #e8491d;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -38,17 +38,17 @@ input[type=submit]:hover {
 /* Style the container/contact section */
 .contacts {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #ffffff;
   padding: 10px;
 }
 
 /* Create two columns that float next to eachother */
 .col {
-  float: left;
-  width: 50%;
+  width: 100%;
   margin-top: 6px;
   padding: 20px;
-
+  background:#35424a;
+  color:#ffffff;
 }
 
 /* Clear floats after the columns */
